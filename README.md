@@ -2,7 +2,7 @@
 
 A clean, modern, and fully responsive portfolio website built with **HTML, CSS, and JavaScript** (no frameworks). Perfect for showcasing your work as a developer/designer.
 
-![Portfolio Screenshot](C:\Users\pc\Desktop\portfolio page\screenshot.PNG) *(Add your own screenshot)*
+![Portfolio Screenshot](C:\Users\pc\Desktop\portfolio page\screenshot.PNG)
 
 ## Features ✨
 

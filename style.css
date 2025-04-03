@@ -19,12 +19,14 @@
 
 html {
     scroll-behavior: smooth;
+    scroll-padding-top: 80px; /* Add space for fixed header */
 }
 
 body {
     background-color: var(--light-color);
     color: var(--dark-color);
     line-height: 1.6;
+    padding-top: 80px;
 }
 
 .container {
@@ -88,7 +90,7 @@ header {
     z-index: 1000;
     background-color: white;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    transition: all 0.3s ease;
+    padding: 15px 0;
 }
 
 header.scrolled {
@@ -100,7 +102,9 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 0;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
 
 .logo a {
@@ -165,10 +169,10 @@ nav {
 
 /* Hero Section */
 .hero {
-    height: 100vh;
+    min-height: calc(100vh - 80px); /* Account for header height */
     display: flex;
     align-items: center;
-    background: linear-gradient(135deg, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.7)), url('images/hero-bg.jpg') no-repeat center center/cover;
+    padding: 40px 0;
 }
 
 .hero-content {
